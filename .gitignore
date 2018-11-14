@@ -1,0 +1,8 @@
+app/config.py
+app/.idea
+MyApplication/.idea
+app/.DS_Store
+Project_Summmer_2018/.DS_Store
+../*
+.DS_Store
+*/.DS_Store
