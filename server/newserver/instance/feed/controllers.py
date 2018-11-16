@@ -26,6 +26,6 @@ def feed_add():
     return "OK"
 
 
-@module.route('/', methods=['GET'])
-def index():
-    return "HI"
+@module.route('/get_feed', methods=['GET'])
+def get_feed():
+    pass
