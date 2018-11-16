@@ -1,2 +1,1 @@
 SchoolToday
-l o l
