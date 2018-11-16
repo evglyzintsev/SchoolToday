@@ -1,6 +1,7 @@
 from flask import Flask
 from .database import db
 
+
 def create():
     SchoolToday = Flask(__name__)
     SchoolToday.config.from_object('config')
@@ -8,7 +9,7 @@ def create():
     db.init_app(SchoolToday)
     with SchoolToday.test_request_context():
         db.create_all()
-        
-    import instance.api as api
-    SchoolToday.register_blueprint(api.module)
-    return yasm
+
+    import instance.feed as feed
+    SchoolToday.register_blueprint(feed.module)
+    return SchoolToday
