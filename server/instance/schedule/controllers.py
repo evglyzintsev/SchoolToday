@@ -2,6 +2,7 @@ from flask import Blueprint, request, Response, jsonify
 import gspread
 import json
 from oauth2client.service_account import ServiceAccountCredentials
+
 module = Blueprint('schedule', __name__, url_prefix='/api/schedule')
 
 
@@ -36,4 +37,3 @@ def GetTimeTable(cl):
         if i > 61:
             ans_list[5].append(FromBadToGoodWord(str(cell_list[i])))
     return json.dumps({'ans': ans_list})
-
