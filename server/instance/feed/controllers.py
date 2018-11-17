@@ -27,7 +27,7 @@ def feed_add():
 
 @module.route('/get_feed', methods=['GET'])
 def get_feed():
-    query = instance.database.Feed.query.all()
+    query = db.Feed.query.all()
     ans = []
 
     for entry in query:
