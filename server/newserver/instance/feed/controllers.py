@@ -28,4 +28,12 @@ def feed_add():
 
 @module.route('/get_feed', methods=['GET'])
 def get_feed():
-    pass
+    query = instance.database.Feed.query.all()
+    ans = []
+
+    for entry in query:
+        ans.append(entry.serialize())
+
+    return jsonify({
+        'values': ans
+    })
