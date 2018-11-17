@@ -14,4 +14,6 @@ def create():
     SchoolToday.register_blueprint(feed.module)
     import instance.schedule as schedule
     SchoolToday.register_blueprint(schedule.module)
+    import instance.interface as interface
+    SchoolToday.register_blueprint(interface.module)
     return SchoolToday
