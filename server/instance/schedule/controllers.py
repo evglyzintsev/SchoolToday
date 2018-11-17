@@ -21,7 +21,6 @@ def GetTimeTable(cl):
     g = wks.worksheet('расписание')
     cls = {'5C': 'C', '6C': 'D', '7C': 'E', '7T': 'F', '7L': 'G', '9C': 'H'}
     cell_list = g.range(cls[cl] + '2:' + cls[cl] + '72')
-    # print(cell_list)
     ans_list = [[], [], [], [], [], []]
     for i in range(2, 71):
         if i < 14:
