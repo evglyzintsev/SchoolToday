@@ -3,7 +3,7 @@ from .database import db
 
 
 def create():
-    SchoolToday = Flask(__name__)
+    SchoolToday = Flask(__name__, static_folder='static')
     SchoolToday.config.from_object('config')
     SchoolToday.config.from_pyfile('config.py')
     db.init_app(SchoolToday)
