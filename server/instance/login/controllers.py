@@ -1,5 +1,5 @@
 from flask import Blueprint, url_for, redirect, flash, render_template, request
-from flask_login import current_user, login_user, logout_user, LoginManager
+from flask_login import current_user, login_user, logout_user, LoginManager, login_required
 from ..database import Users
 from .forms import LoginForm
 from werkzeug.security import check_password_hash
@@ -15,13 +15,13 @@ def load_user(user_id):
 def user_login(login, password):
     logins = (Users
               .query
-              .filter(Users.login == login)
+              .filter(users.login == login)
               .all())
     if len(logins) != 1:
         return False
     user = logins[0]
-    if check_password_hash(users.pass_hash, password):
-        login_user(users)
+    if check_password_hash(user.pass_hash, password):
+        login_user(user)
         return True
     return False
 
