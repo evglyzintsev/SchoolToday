@@ -1,7 +1,9 @@
-function raa(){
-    var tbl = '{"subject":"Русский","food":false,"plase": 409,"comment":"Yarik"}';
+function raa() {
+    var tbl = '{"subject":"Русский","food":false,"place": 409,"comment":"Yarik"}';
     tbl = json.parse(tbl);
-    for (var key = 0; key < json.lenght; key++) {
-        document.getElementById('nrop').innerHTML = tbl[key];
-    }
+    document.getElementById('nrop').innerHTML + tbl.subject;
+    document.getElementById('nrop').innerHTML + tbl.food;
+    document.getElementById('nrop').innerHTML + tbl.place;
+    document.getElementById('nrop').innerHTML + tbl.comment;
+    document.getElementById('nrop').appendChild;
 }
