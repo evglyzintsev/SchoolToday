@@ -135,8 +135,8 @@ header {
 }
 
 a {
-    margin: 500px;
-    margin-left: 100px;
+    margin: 50px;
+    /* margin-left: 100px; */
 }
 
 #xt {
