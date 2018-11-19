@@ -10,12 +10,12 @@ module = Blueprint('login', __name__, url_prefix='/login')
 
 @lm.user_loader
 def load_user(user_id):
-    return User.get(user_id)
+    return Users.get(user_id)
 
 def user_login(login, password):
     logins = (Users
               .query
-              .filter(users.login == login)
+              .filter(Users.login == login)
               .all())
     if len(logins) != 1:
         return False
@@ -26,7 +26,7 @@ def user_login(login, password):
     return False
 
 @module.route('/', methods=['GET', 'POST'])
-def index():
+def login():
     if request.method == 'POST':
         if user_login(request.form['login'], request.form['password']):
             return "YES"
