@@ -7,7 +7,7 @@ class Users(db.Model):
     __tablename__ = 'users'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
-    name = db.Column(db.Text, nullable=False)
+    login = db.Column(db.Text, nullable=False)
     cellular = db.Column(db.Text)
     mail = db.Column(db.Text)
     status = db.Column(db.Text, nullable=False)

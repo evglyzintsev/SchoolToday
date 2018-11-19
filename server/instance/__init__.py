@@ -1,12 +1,13 @@
 from flask import Flask
 from .database import db
-
+from instance.login import lm
 
 def create():
     SchoolToday = Flask(__name__, static_folder='static')
     SchoolToday.config.from_object('config')
     SchoolToday.config.from_pyfile('config.py')
     db.init_app(SchoolToday)
+    lm.init_app(SchoolToday)
     with SchoolToday.test_request_context():
         db.create_all()
 
