@@ -10,14 +10,12 @@ def main():
     elif request.method == 'POST':
         pass
 
-
 @module.route('/time_table', methods=['GET', 'POST'])
 def time_table():
     if request.method == 'GET':
         return render_template('TimeTableP.html')
     elif request.method == 'POST':
         pass
-
 
 @module.route('/auth', methods=['GET', 'POST'])
 def auth():
@@ -26,11 +24,9 @@ def auth():
     elif request.method == 'POST':
         pass
 
-
 @module.route('/school_event/add', methods=['GET', 'POST'])
 def school_event_add():
     if request.method == 'GET':
         return render_template('add_school_event.html')
     elif request.method == 'POST':
         pass
-
