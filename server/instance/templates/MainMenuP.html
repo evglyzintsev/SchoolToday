@@ -1,36 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
+{% block title %}
+Главное меню
+{% endblock %}
+{% block content %}
+<div class="pen">
+    <div class="headmain">
+        <form>
+            <button class="button_link_first" id="bt_lg_out" formaction="javascript:window.location='Authorization.html'">
+                <img src="H.png{{ url_for('static', filename='H.png') }}" width="100 height=" 66">
+                <form>
+                    <button class="button_link_second" id="bt_lg_in" formaction="javascript:window.location='Authorization.html'">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Главное меню</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" type="text/css" />
-</head>
-
-</html>
-
-<body>
-    <div class="pen">
-        <div class="headmain">
-            <form>
-                <button class="button_link_first" id="bt_lg_out" formaction="javascript:window.location='Authorization.html'">
-                    <img src="H.png" width="100" height="66">
-                    <form>
-                        <button class="button_link_second" id="bt_lg_in" formaction="javascript:window.location='Authorization.html'">
-
-                            <img src="o.png" width="100" height="66">
+                        <img src="o.png" width="100" height="66">
 
 
-                        </button>
-                        <input class="button_link_second" value="Расписание" type="button" id="time_table" onclick="javascript:window.location='TimeTableP.html'" />
-                    </form>
-            </form>
-        </div>
-
-        <div class="frame_div">
-            <iframe class="frame_frame" height="610" width="1490" src="https://www.1303fm.org">
-            </iframe></div>
+                    </button>
+                    <input class="button_link_second" value="Расписание" type="button" id="time_table" onclick="javascript:window.location='TimeTableP.html'" />
+                </form>
+        </form>
     </div>
-</body>
 
-</html>
+    <div class="frame_div">
+        <iframe class="frame_frame" height="610" width="1490" src="https://www.1303fm.org">
+        </iframe>
+    </div>
+    {% endblock %}
