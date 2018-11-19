@@ -15,7 +15,7 @@ def load_user(user_id):
 def user_login(login, password):
     logins = (Users
               .query
-              .filter(Users.login == login)
+              .filter(Users.name == login)
               .all())
     if len(logins) != 1:
         return False
