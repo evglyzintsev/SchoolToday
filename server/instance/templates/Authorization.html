@@ -3,7 +3,7 @@
 Авторизация
 {% endblock %}
 {% block content %}
-<img id="symbol" src="GF.png">
+<img id="symbol" src="{{ url_for('static', filename='GF.png') }}">
 <form class="login-manager__entry" action="" method="post">
     {{ form.csrf }}
     <fieldset class="form_aut" id="autorize">
@@ -16,19 +16,12 @@
 
         <label for="pass1" class="LOG_IN_T">{{ form.password.label }}<br>
             {{ form.password }}
-            <input type="password" id="pass1" class="PASS_F" name="Пароль" required>
         </label><br><br><br>
 
         <input class="autorize" type="submit" value="Войти">
 
         <br><br>
     </fieldset>
-
-
-    <div class="input submit">
-        <input type="submit" value="Submit" />
-    </div>
-</form>
-
+</form
 
 {% endblock %}
