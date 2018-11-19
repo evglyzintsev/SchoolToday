@@ -2,20 +2,19 @@
 {% block title %}
 Расписание
 {% endblock %}
+{% block js %}
+<script src="{{ url_for('static', filename='script.js') }}">
+</script>
+{% endblock %}
 {% block content %}
-</head>
+<header>
+    <h1 id="xt">Расписание</h1>
+    <a href="Authorization.html">Выход </a>
+    <a href="MainMenuP.html">Главное меню </a>
+    <a href=" "> Новости </a>
+</header>
+<div>
+    <div id="nrop"> </div>
+</div>
 
-</html>
-
-<body link="lightgreen" vlink="lightpurple">
-    <header>
-        <h1 id="xt">Расписание</h1>
-        <a href="Authorization.html">Выход </a>
-        <a href="MainMenuP.html">Главное меню </a>
-        <a href=" "> Новости </a>
-    </header>
-    <div>
-        <div id="nrop"> </div>
-    </div>
-
-    {% endblock %}
+{% endblock %}
