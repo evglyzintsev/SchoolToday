@@ -6,7 +6,7 @@ from werkzeug.security import check_password_hash
 
 lm = LoginManager()
 
-module = Blueprint('login', __name__, url_prefix='/login')
+module = Blueprint('login', __name__, url_prefix='')
 
 @lm.user_loader
 def load_user(user_id):
@@ -25,13 +25,14 @@ def user_login(login, password):
         return True
     return False
 
-@module.route('/', methods=['GET', 'POST'])
+@module.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         if user_login(request.form['login'], request.form['password']):
             return "YES"
         else:
             return "NO"
+    
     form = LoginForm(request.form)
     return render_template(
         "Authorization.html",
