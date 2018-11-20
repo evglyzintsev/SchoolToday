@@ -35,7 +35,7 @@ def login():
     
     form = LoginForm(request.form)
     return render_template(
-        "Authorization.html",
+        "authorization.html",
         form=form
     )
 
