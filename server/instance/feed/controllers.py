@@ -3,7 +3,7 @@ from instance.database import db
 
 module = Blueprint('feed', __name__, url_prefix='/api/feed')
 
-@module.route('/add', methods=['POST'])
+@module.route('/add', methods=['GET', 'POST'])
 def feed_add():
     args = request.args
 
