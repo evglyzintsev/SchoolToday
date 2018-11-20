@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}
+Авторизация
+{% endblock %}
+{% block content %}
+<img id="symbol" src="{{ url_for('static', filename='GF.png') }}">
+<form class="login-manager__entry" action="" method="post">
+    {{ form.csrf }}
+    <fieldset class="form_aut" id="autorize">
+
+        <legend style="color:rgb(12,12,50);">Вход</legend>
+
+        <label for="log1" class="LOG_IN_T">{{ form.login.label }}<br>
+            {{ form.login }}
+        </label><br><br><br>
+
+        <label for="pass1" class="LOG_IN_T">{{ form.password.label }}<br>
+            {{ form.password }}
+        </label><br><br><br>
+
+        <input class="autorize" type="submit" value="Войти">
+
+        <br><br>
+    </fieldset>
+</form
+
+{% endblock %}
