@@ -2,7 +2,6 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-
 class Users(db.Model):
     __tablename__ = 'users'
 
@@ -13,7 +12,6 @@ class Users(db.Model):
     status = db.Column(db.Text, nullable=False)
     pass_hash = db.Column(db.Text, nullable=False)
 
-
 class Feed(db.Model):
     __tablename__ = 'feed'
 
@@ -23,3 +21,12 @@ class Feed(db.Model):
     date = db.Column(db.Text, nullable=False)
     imageurl = db.Column(db.Text, nullable=False)
     post = db.Column(db.Text, nullable=False)
+
+class Achivments(db.Model):
+    __tablename__ = 'achivments'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
+    achivment_text = db.Column(db.Text, nullable=False)
+    text = db.Column(db.Text, nullable=False)
+    date = db.Column(db.Text, nullable=False)
+    imageurl = db.Column(db.Text, nullable=False)
