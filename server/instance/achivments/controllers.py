@@ -25,7 +25,7 @@ def achivment_add():
 
 @module.route('/get_achivments', methods=['GET'])
 def get_achivment():
-    query = db.Feed.query.all()
+    query = db.Achivments.query.all()
     ans = []
 
     for entry in query:
