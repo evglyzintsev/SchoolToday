@@ -13,10 +13,10 @@ def achivment_add():
     imageurl = args['imageurl']  # ---TODO
     
     f = db.Achivments(
-        feed_author=achivment_text,
-        feed_text=text,
-        feed_date=date,
-        feed_imageurl=imageurl
+        achivments_achivment_text=achivment_text,
+        achivments_text=text,
+        achivments_date=date,
+        achivments_imageurl=imageurl
     )
     db.session.add(f)
     db.session.commit()
