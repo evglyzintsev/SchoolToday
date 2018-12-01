@@ -30,3 +30,9 @@ class Achivments(db.Model):
     text = db.Column(db.Text, nullable=False)
     date = db.Column(db.Text, nullable=False)
     imageurl = db.Column(db.Text, nullable=False)
+
+class Images(db.Model):
+    __tablename__ = 'image'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
+    image_bin = db.Column(db.Text, nullable=False)
