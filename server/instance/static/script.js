@@ -19,12 +19,20 @@ function tableCreate(data) {
 
 function gtt() {
     $.ajax({
-        url: 'http://127.0.0.1:5000/api/schedule/get_schedule/5C',
+        url: 'http://127.0.0.1:5000/api/schedule/get_schedule/6C',
         success: function (data) {
             data = JSON.parse(data);
+<<<<<<< HEAD
             console.log(data.ans[0, 0]);
             //  document.getElementById('nrop').innerHTML = data.ans[0, 0];
             tableCreate(data.ans[0]);
+=======
+            var dat = new Date;
+            var day = dat.getDay();
+            // console.log(data.ans[0, 0]);
+            // document.getElementById('nrop').innerHTML = data.ans[0, 0];
+            tableCreate(data.ans[day]);
+>>>>>>> 8ca239d2f20de64e360b6e78ece4833c6f286a0a
         }
     });
 }
