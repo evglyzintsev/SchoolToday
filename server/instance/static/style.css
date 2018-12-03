@@ -117,7 +117,7 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    width:1000;
+    width: 1000;
 }
 
 #pi {
@@ -143,6 +143,7 @@ a {
 #xt {
     margin-left: 150px;
 }
-#nrop{
-    
+
+#nrop {
+    top: 100px;
 }
