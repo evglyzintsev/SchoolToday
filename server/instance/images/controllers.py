@@ -23,12 +23,5 @@ def get_achivment():
     args = request.args
     image_id = args['id']
 
-    query = db.Achivments.query.filter(Images.id == image_id).all()
-    ans = []
-
-    for entry in query:
-        ans.append(entry.serialize())
-
-    return jsonify({
-        'values': ans
-    })
+    query = db.Images.query.filter(Images.id == image_id).first()
+    return query.image_bin
