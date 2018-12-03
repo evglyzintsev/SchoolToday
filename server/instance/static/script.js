@@ -8,6 +8,7 @@ function tableCreate(data) {
         var tr = document.createElement('tr');
         var td = document.createElement('td');
         td.innerText = data[i];
+        td.innerHTML += '<br>';
         tr.appendChild(td);
         tbdy.appendChild(tr);
     }
@@ -26,4 +27,5 @@ function gtt() {
         }
     });
 }
+
 window.onload = gtt;
