@@ -145,5 +145,10 @@ a {
 }
 
 #nrop {
-    top: 100px;
+    background-color:darkorange;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -950px;
+   width: -100000px
+    
 }
