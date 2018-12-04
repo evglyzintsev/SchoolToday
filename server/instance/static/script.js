@@ -1,10 +1,11 @@
 function tableCreate(data) {
     var body = document.getElementById('nrop');
     var tbl = document.createElement('table');
-    tbl.style.width = '100%';
-    tbl.setAttribute('border', '1');
+    tbl.style.width = '1900px';
+    tbl.style.height = '850px';
+    tbl.setAttribute('border', '10');
     var tbdy = document.createElement('tbody');
-    for (var i = 0; i < 12; i++) {
+    for (var i = 1; i < 12; i++) {
         var tr = document.createElement('tr');
         var td = document.createElement('td');
         td.innerText = data[i];
@@ -21,11 +22,17 @@ function gtt() {
         url: 'http://127.0.0.1:5000/api/schedule/get_schedule/6C',
         success: function (data) {
             data = JSON.parse(data);
+<<<<<<< HEAD
+            console.log(data.ans[0, 0]);
+            //  document.getElementById('nrop').innerHTML = data.ans[0, 0];
+            tableCreate(data.ans[0]);
+=======
             var dat = new Date;
             var day = dat.getDay();
             // console.log(data.ans[0, 0]);
             // document.getElementById('nrop').innerHTML = data.ans[0, 0];
             tableCreate(data.ans[day]);
+>>>>>>> 8ca239d2f20de64e360b6e78ece4833c6f286a0a
         }
     });
 }
