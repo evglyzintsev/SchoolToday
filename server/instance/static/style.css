@@ -145,5 +145,6 @@ a {
 }
 
 #nrop {
-    top: 100px;
+    position: absolute;
+    top: 1000px;
 }
