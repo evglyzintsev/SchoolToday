@@ -36,3 +36,10 @@ class Images(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
     image_bin = db.Column(db.Text, nullable=False)
+
+class Gallery(db.Model):
+    __tablename__ = 'gallery'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
+    label = db.Column(db.Text, nullable=False)
+    image_id = db.Column(db.Integer, db.ForeignKey(Images.id))
