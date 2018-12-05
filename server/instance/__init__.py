@@ -25,4 +25,6 @@ def create():
     SchoolToday.register_blueprint(images.module)
     import instance.gallery as gallery
     SchoolToday.register_blueprint(gallery.module)
+    import instance.recomendations as recomendations
+    SchoolToday.register_blueprint(recomendations.module)
     return SchoolToday

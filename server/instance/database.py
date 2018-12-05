@@ -28,9 +28,19 @@ class Achivments(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
     achivment_text = db.Column(db.Text, nullable=False)
     text = db.Column(db.Text, nullable=False)
+    type = db.Column(db.Text, nullable=False)
+    place = db.Column(db.Text, nullable=False)
     date = db.Column(db.Text, nullable=False)
     imageurl = db.Column(db.Text, nullable=False)
 
+class Recomendations(db.Model):
+    __tablename__ = 'recomendations'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True, nullable=False)
+    author = db.Column(db.Integer, db.ForeignKey(Users.id), nullable=False)
+    text = db.Column(db.Text, nullable=False)
+    date = db.Column(db.Text, nullable=False)
+    
 class Images(db.Model):
     __tablename__ = 'image'
 
