@@ -25,7 +25,7 @@ def user_login(login, password):
         return True
     return False
 
-@module.route('/login/', methods=['GET', 'POST'])
+@module.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         if user_login(request.form['login'], request.form['password']):
@@ -44,7 +44,3 @@ def login():
 @login_required
 def username():
     return current_user.login
-HEAD
-=======
-    print('test')
-db260365ab194466e709ae1e86895edfe9247a32
