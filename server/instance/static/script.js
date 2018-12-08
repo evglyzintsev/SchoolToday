@@ -1,8 +1,6 @@
 function tableCreate(data) {
     var body = document.getElementById('nrop');
     var tbl = document.createElement('table');
-    tbl.style.width = '1900px';
-    tbl.style.height = '850px';
     tbl.setAttribute('border', '10');
     var tbdy = document.createElement('tbody');
     for (var i = 1; i < 12; i++) {
