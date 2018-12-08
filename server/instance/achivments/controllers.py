@@ -10,12 +10,16 @@ def achivment_add():
     achivment_text = args['achivment_text']
     text = args['text']
     date = args['date']
+    type = args['type']
+    place = args['place']
     imageurl = args['imageurl']  # ---TODO
     
     f = db.Achivments(
         achivments_achivment_text=achivment_text,
         achivments_text=text,
         achivments_date=date,
+        achivments_type=type,
+        achivments_place=place,
         achivments_imageurl=imageurl
     )
     db.session.add(f)

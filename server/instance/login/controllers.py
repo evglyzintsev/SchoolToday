@@ -44,3 +44,7 @@ def login():
 @login_required
 def username():
     return current_user.login
+<<<<<<< HEAD
+=======
+    print('test')
+>>>>>>> db260365ab194466e709ae1e86895edfe9247a32
