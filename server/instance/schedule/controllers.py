@@ -69,7 +69,7 @@ class TimeTable(object, metaclass=cTimeTable):
 
 
 @module.route('/get_schedule/<cl>', methods=['GET'])
-def GetTimeTableOfCertainClass(self, cl):
+def GetTimeTableOfCertainClass(cl):
     ttt = TimeTable()
     return json.dumps({'ans': ttt.t[cl]})
 
