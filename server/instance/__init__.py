@@ -16,6 +16,7 @@ def create():
     SchoolToday.register_blueprint(feed.module)
     import instance.schedule as schedule
     SchoolToday.register_blueprint(schedule.module)
+    threading.Timer(0.1, schedule.TimeTable().GetWholeTimeTable).start()
     import instance.interface as interface
     SchoolToday.register_blueprint(interface.module)
     import instance.login as login
