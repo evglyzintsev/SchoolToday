@@ -1,3 +1,7 @@
 venv
 *.pyc
+<<<<<<< HEAD
 instance/config.py
+=======
+1.json
+>>>>>>> a2e886c8d1a74cc988800324d836a46c205d3672

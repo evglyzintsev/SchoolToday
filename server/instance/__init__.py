@@ -24,5 +24,8 @@ def create():
     SchoolToday.register_blueprint(achivments.module)
     import instance.images as images
     SchoolToday.register_blueprint(images.module)
-        #threading.Timer(1, schedule.GetWholeTimeTable).start()
+    import instance.gallery as gallery
+    SchoolToday.register_blueprint(gallery.module)
+    import instance.recomendations as recomendations
+    SchoolToday.register_blueprint(recomendations.module)
     return SchoolToday

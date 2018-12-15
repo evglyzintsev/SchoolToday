@@ -17,13 +17,6 @@ def time_table():
     elif request.method == 'POST':
         pass
 
-@module.route('/auth', methods=['GET', 'POST'])
-def auth():
-    if request.method == 'GET':
-        return render_template('Authorization.html')
-    elif request.method == 'POST':
-        pass
-
 @module.route('/school_event/add', methods=['GET', 'POST'])
 def school_event_add():
     if request.method == 'GET':

@@ -5,6 +5,7 @@ import json
 from oauth2client.service_account import ServiceAccountCredentials
 
 module = Blueprint('schedule', __name__, url_prefix='/api/schedule')
+
 class cTimeTable(type):
     _instances = {}
     def __call__(cls, *args, **kwargs):
@@ -72,4 +73,3 @@ def GetTimeTableOfCertainClass(self, cl):
     ttt = TimeTable()
     return json.dumps({'ans': ttt.t[cl]})
 
-#return json.dumps({'ans': ans_list})
