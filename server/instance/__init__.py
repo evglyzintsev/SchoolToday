@@ -27,4 +27,6 @@ def create():
     SchoolToday.register_blueprint(gallery.module)
     import instance.recomendations as recomendations
     SchoolToday.register_blueprint(recomendations.module)
+    import instance.api_login as api_login
+    SchoolToday.register_blueprint(api_login.module)
     return SchoolToday
