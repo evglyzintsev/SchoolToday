@@ -1,0 +1,525 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CameraCollectionViewDataSource"
+provides-nominal:
+- "13BSImagePicker30CameraCollectionViewDataSourceC"
+provides-member:
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", ""]
+provides-dynamic-lookup:
+- "cameraAvailable"
+- "cameraCellIdentifier"
+- "collectionView"
+- "numberOfSections"
+- "registerCellIdentifiersForCollectionView"
+depends-top-level:
+- !private "&&"
+- "AssignmentPrecedence"
+- "BSImagePickerSettings"
+- !private "BSImagePickerViewController"
+- "Bool"
+- !private "CameraCell"
+- "CameraCollectionViewDataSource"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UICollectionViewDataSource"
+- !private "UINib"
+depends-member:
+- !private ["13BSImagePicker0aB8SettingsP", "bundle"]
+- !private ["13BSImagePicker0aB8SettingsP", "takePhotoIcon"]
+- !private ["13BSImagePicker0aB8SettingsP", "takePhotos"]
+- !private ["13BSImagePicker0aB14ViewControllerC", "bundle"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "item"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "accessibilityIdentifier"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "takePhotoIcon"]
+- !private ["s7CVarArgP", "BSImagePickerViewController"]
+- !private ["s7CVarArgP", "UINib"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "accessibilityIdentifier"]
+- !private ["s7CVarArgP", "bundle"]
+- !private ["s7CVarArgP", "cameraAvailable"]
+- !private ["s7CVarArgP", "cameraCellIdentifier"]
+- ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- ["s7CVarArgP", "indexTitles"]
+- ["s7CVarArgP", "indexTitlesForCollectionView"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberOfSections"]
+- ["s7CVarArgP", "numberOfSectionsInCollectionView"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "takePhotoIcon"]
+- !private ["13BSImagePicker10CameraCellC", "accessibilityIdentifier"]
+- !private ["13BSImagePicker10CameraCellC", "deinit"]
+- !private ["13BSImagePicker10CameraCellC", "takePhotoIcon"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "BSImagePickerSettings"]
+- !private ["13BSImagePicker30CameraCollectionViewDataSourceC", "BSImagePickerViewController"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "Bool"]
+- !private ["13BSImagePicker30CameraCollectionViewDataSourceC", "CameraCell"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "IndexPath"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "Int"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "UICollectionView"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "UICollectionViewCell"]
+- !private ["13BSImagePicker30CameraCollectionViewDataSourceC", "UINib"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "cameraAvailable"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "cameraCellIdentifier"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "collectionView"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "deinit"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "indexTitles"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "indexTitlesForCollectionView"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "init"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "numberOfSections"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "numberOfSectionsInCollectionView"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "registerCellIdentifiersForCollectionView"]
+- ["13BSImagePicker30CameraCollectionViewDataSourceC", "settings"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "item"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "BSImagePickerViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "cameraAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "cameraCellIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- ["s28CustomDebugStringConvertibleP", "indexTitles"]
+- ["s28CustomDebugStringConvertibleP", "indexTitlesForCollectionView"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSections"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSectionsInCollectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "takePhotoIcon"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "item"]
+- !private ["s23CustomStringConvertibleP", "BSImagePickerViewController"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s23CustomStringConvertibleP", "bundle"]
+- !private ["s23CustomStringConvertibleP", "cameraAvailable"]
+- !private ["s23CustomStringConvertibleP", "cameraCellIdentifier"]
+- ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- ["s23CustomStringConvertibleP", "indexTitles"]
+- ["s23CustomStringConvertibleP", "indexTitlesForCollectionView"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- ["s23CustomStringConvertibleP", "numberOfSections"]
+- ["s23CustomStringConvertibleP", "numberOfSectionsInCollectionView"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "takePhotoIcon"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "item"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "item"]
+- !private ["SQ", "BSImagePickerViewController"]
+- !private ["SQ", "UINib"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "accessibilityIdentifier"]
+- !private ["SQ", "bundle"]
+- !private ["SQ", "cameraAvailable"]
+- !private ["SQ", "cameraCellIdentifier"]
+- ["SQ", "collectionView"]
+- !private ["SQ", "dequeueReusableCell"]
+- ["SQ", "indexTitles"]
+- ["SQ", "indexTitlesForCollectionView"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "item"]
+- ["SQ", "numberOfSections"]
+- ["SQ", "numberOfSectionsInCollectionView"]
+- !private ["SQ", "register"]
+- !private ["SQ", "settings"]
+- !private ["SQ", "takePhotoIcon"]
+- !private ["s25ExpressibleByArrayLiteralP", "item"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "BSImagePickerViewController"]
+- !private ["SH", "UINib"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "accessibilityIdentifier"]
+- !private ["SH", "bundle"]
+- !private ["SH", "cameraAvailable"]
+- !private ["SH", "cameraCellIdentifier"]
+- ["SH", "collectionView"]
+- !private ["SH", "dequeueReusableCell"]
+- ["SH", "indexTitles"]
+- ["SH", "indexTitlesForCollectionView"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "item"]
+- ["SH", "numberOfSections"]
+- ["SH", "numberOfSectionsInCollectionView"]
+- !private ["SH", "register"]
+- !private ["SH", "settings"]
+- !private ["SH", "takePhotoIcon"]
+- !private ["10Foundation9IndexPathV", "item"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "item"]
+- !private ["So8NSCodingP", "accessibilityIdentifier"]
+- !private ["So8NSCodingP", "bundle"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "takePhotoIcon"]
+- !private ["So26NSExtensionRequestHandlingP", "bundle"]
+- ["So8NSObjectC", "BSImagePickerSettings"]
+- !private ["So8NSObjectC", "BSImagePickerViewController"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CameraCell"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UICollectionViewCell"]
+- !private ["So8NSObjectC", "UINib"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "accessibilityIdentifier"]
+- !private ["So8NSObjectC", "bundle"]
+- ["So8NSObjectC", "cameraAvailable"]
+- ["So8NSObjectC", "cameraCellIdentifier"]
+- ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- ["So8NSObjectC", "indexTitles"]
+- ["So8NSObjectC", "indexTitlesForCollectionView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "numberOfSectionsInCollectionView"]
+- !private ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerCellIdentifiersForCollectionView"]
+- ["So8NSObjectC", "settings"]
+- !private ["So8NSObjectC", "takePhotoIcon"]
+- !private ["So8NSObjectP", "BSImagePickerViewController"]
+- !private ["So8NSObjectP", "UINib"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessibilityIdentifier"]
+- !private ["So8NSObjectP", "bundle"]
+- !private ["So8NSObjectP", "cameraAvailable"]
+- !private ["So8NSObjectP", "cameraCellIdentifier"]
+- ["So8NSObjectP", "collectionView"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- ["So8NSObjectP", "indexTitles"]
+- ["So8NSObjectP", "indexTitlesForCollectionView"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "numberOfSections"]
+- ["So8NSObjectP", "numberOfSectionsInCollectionView"]
+- !private ["So8NSObjectP", "register"]
+- !private ["So8NSObjectP", "settings"]
+- !private ["So8NSObjectP", "takePhotoIcon"]
+- !private ["Sk", "item"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "item"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "item"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "accessibilityIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "takePhotoIcon"]
+- !private ["So12UIAppearanceP", "accessibilityIdentifier"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "takePhotoIcon"]
+- !private ["So21UIAppearanceContainerP", "accessibilityIdentifier"]
+- !private ["So21UIAppearanceContainerP", "bundle"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "takePhotoIcon"]
+- !private ["So24UICollectionReusableViewC", "accessibilityIdentifier"]
+- !private ["So24UICollectionReusableViewC", "takePhotoIcon"]
+- !private ["So16UICollectionViewC", "dequeueReusableCell"]
+- !private ["So16UICollectionViewC", "register"]
+- !private ["So20UICollectionViewCellC", "accessibilityIdentifier"]
+- !private ["So20UICollectionViewCellC", "takePhotoIcon"]
+- !private ["So26UICollectionViewDataSourceP", "BSImagePickerViewController"]
+- !private ["So26UICollectionViewDataSourceP", "UINib"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So26UICollectionViewDataSourceP", "cameraAvailable"]
+- !private ["So26UICollectionViewDataSourceP", "cameraCellIdentifier"]
+- ["So26UICollectionViewDataSourceP", "collectionView"]
+- ["So26UICollectionViewDataSourceP", "indexTitles"]
+- ["So26UICollectionViewDataSourceP", "indexTitlesForCollectionView"]
+- ["So26UICollectionViewDataSourceP", "numberOfSections"]
+- ["So26UICollectionViewDataSourceP", "numberOfSectionsInCollectionView"]
+- !private ["So26UICollectionViewDataSourceP", "settings"]
+- !private ["So18UIContentContainerP", "bundle"]
+- !private ["So17UICoordinateSpaceP", "accessibilityIdentifier"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "takePhotoIcon"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "accessibilityIdentifier"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "takePhotoIcon"]
+- !private ["So18UIFocusEnvironmentP", "accessibilityIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "bundle"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "takePhotoIcon"]
+- !private ["So11UIFocusItemP", "accessibilityIdentifier"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "takePhotoIcon"]
+- !private ["So20UIFocusItemContainerP", "accessibilityIdentifier"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "register"]
+- !private ["So20UIFocusItemContainerP", "takePhotoIcon"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "register"]
+- !private ["So22UINavigationControllerC", "bundle"]
+- !private ["So5UINibC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "accessibilityIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "takePhotoIcon"]
+- !private ["So11UIResponderC", "accessibilityIdentifier"]
+- !private ["So11UIResponderC", "bundle"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So11UIResponderC", "takePhotoIcon"]
+- !private ["So30UIResponderStandardEditActionsP", "accessibilityIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "takePhotoIcon"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So16UIStateRestoringP", "bundle"]
+- !private ["So18UITraitEnvironmentP", "accessibilityIdentifier"]
+- !private ["So18UITraitEnvironmentP", "bundle"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "takePhotoIcon"]
+- !private ["So23UIUserActivityRestoringP", "accessibilityIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "bundle"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "register"]
+- !private ["So23UIUserActivityRestoringP", "takePhotoIcon"]
+- !private ["So6UIViewC", "accessibilityIdentifier"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "register"]
+- !private ["So6UIViewC", "takePhotoIcon"]
+- !private ["So16UIViewControllerC", "bundle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "accessibilityIdentifier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "takePhotoIcon"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BSImagePickerViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cameraAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cameraCellIdentifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indexTitles"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indexTitlesForCollectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInCollectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "takePhotoIcon"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "item"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13BSImagePicker0aB8SettingsP"
+- !private "13BSImagePicker0aB14ViewControllerC"
+- "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "13BSImagePicker10CameraCellC"
+- "13BSImagePicker30CameraCollectionViewDataSourceC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So24UICollectionReusableViewC"
+- !private "So16UICollectionViewC"
+- !private "So20UICollectionViewCellC"
+- "So26UICollectionViewDataSourceP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So22UINavigationControllerC"
+- !private "So5UINibC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSImagePicker/BSImagePicker-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSImagePicker.build/unextended-module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/UIImageViewModeScaleAspect.build/module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSGridCollectionViewLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "452f94868251f017a1e51261ae876a22"

@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "eace8225eeb55a8113e57fdd6bfdbad8"
+build_time: [1547276854, 484007000]
+inputs:
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/AFIError.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/Image.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/ImageCache.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/ImageDownloader.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/ImageFilter.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1545456994, 0]

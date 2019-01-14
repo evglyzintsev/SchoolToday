@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "4ef8f121940e93cd96badb5567226961"
+build_time: [1545457446, 360604000]
+inputs:
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/View/AlbumCell.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Controller/AlbumsViewController.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Model/AlbumTableViewDataSource.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/View/AlbumTitleView.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Protocol/BSImagePickerSettings.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Controller/BSImagePickerViewController.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/View/CameraCell.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Model/CameraCollectionViewDataSource.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Model/ComposedCollectionViewDataSource.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Extension/NSIndexSet+NSIndexPath.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/View/PhotoCell.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Model/PhotoCollectionViewDataSource.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Controller/PhotosViewController.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Controller/PreviewViewController.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/View/SelectionView.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Model/Settings.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Extension/UIViewController+BSImagePicker.swift": [1545456994, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSImagePicker/Pod/Classes/Controller/ZoomAnimator.swift": [1545456994, 0]

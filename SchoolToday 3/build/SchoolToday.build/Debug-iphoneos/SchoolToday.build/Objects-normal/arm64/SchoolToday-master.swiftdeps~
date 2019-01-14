@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "b7234122090121f3c0d5aaa2084cbd1d"
+build_time: [1544035104, 190783000]
+inputs:
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/ViewController.swift": [1542223656, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/TimeTableViewController.swift": [1544035103, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/FeedTableViewCell.swift": [1542369958, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/TimeTableViewCell.swift": [1544034055, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/AppDelegate.swift": [1542223656, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/FeedViewController.swift": [1544031848, 0]
+  "/Users/podvorniy/Desktop/SchoolToday 3/SchoolToday/MenuViewController.swift": [1542276916, 0]

@@ -1,0 +1,681 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoCell"
+provides-nominal:
+- "13BSImagePicker9PhotoCellC"
+provides-member:
+- ["13BSImagePicker9PhotoCellC", ""]
+provides-dynamic-lookup:
+- "asset"
+- "imageView"
+- "photoSelected"
+- "selectionOverlayView"
+- "selectionString"
+- "selectionView"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- "AssignmentPrecedence"
+- "BSImagePickerSettings"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CGAffineTransform"
+- !private "FloatLiteralType"
+- "PHAsset"
+- "PhotoCell"
+- "SelectionView"
+- "String"
+- !private "TimeInterval"
+- "UICollectionViewCell"
+- "UIImageView"
+- "UIView"
+- !private "Void"
+depends-member:
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "CGAffineTransform"]
+- !private ["So15CALayerDelegateP", "TimeInterval"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "areAnimationsEnabled"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "photoSelected"]
+- !private ["So15CALayerDelegateP", "selectionOverlayView"]
+- !private ["So15CALayerDelegateP", "selectionString"]
+- !private ["So15CALayerDelegateP", "selectionView"]
+- !private ["So15CALayerDelegateP", "settings"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["So15CALayerDelegateP", "updateAlpha"]
+- !private ["So17CGAffineTransformV", "init"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "areAnimationsEnabled"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "photoSelected"]
+- !private ["s7CVarArgP", "selectionOverlayView"]
+- !private ["s7CVarArgP", "selectionString"]
+- !private ["s7CVarArgP", "selectionView"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "updateAlpha"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "areAnimationsEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "photoSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionOverlayView"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionString"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "updateAlpha"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "alpha"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "selectionString"]
+- !private ["s17CustomReflectableP", "settings"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "areAnimationsEnabled"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "photoSelected"]
+- !private ["s23CustomStringConvertibleP", "selectionOverlayView"]
+- !private ["s23CustomStringConvertibleP", "selectionString"]
+- !private ["s23CustomStringConvertibleP", "selectionView"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "updateAlpha"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "alpha"]
+- !private ["Se", "init"]
+- !private ["Se", "selectionString"]
+- !private ["Se", "settings"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "alpha"]
+- !private ["SE", "init"]
+- !private ["SE", "selectionString"]
+- !private ["SE", "settings"]
+- !private ["SQ", "CGAffineTransform"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "areAnimationsEnabled"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "photoSelected"]
+- !private ["SQ", "selectionOverlayView"]
+- !private ["SQ", "selectionString"]
+- !private ["SQ", "selectionView"]
+- !private ["SQ", "settings"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "updateAlpha"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "alpha"]
+- !private ["s23ExpressibleByNilLiteralP", "selectionString"]
+- !private ["s23ExpressibleByNilLiteralP", "settings"]
+- !private ["SF", "init"]
+- !private ["SH", "CGAffineTransform"]
+- !private ["SH", "TimeInterval"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "alpha"]
+- !private ["SH", "animate"]
+- !private ["SH", "areAnimationsEnabled"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "photoSelected"]
+- !private ["SH", "selectionOverlayView"]
+- !private ["SH", "selectionString"]
+- !private ["SH", "selectionView"]
+- !private ["SH", "settings"]
+- !private ["SH", "transform"]
+- !private ["SH", "updateAlpha"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSCodingP", "CGAffineTransform"]
+- !private ["So8NSCodingP", "TimeInterval"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "areAnimationsEnabled"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "photoSelected"]
+- !private ["So8NSCodingP", "selectionOverlayView"]
+- !private ["So8NSCodingP", "selectionString"]
+- !private ["So8NSCodingP", "selectionView"]
+- !private ["So8NSCodingP", "settings"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "updateAlpha"]
+- ["So8NSObjectC", "BSImagePickerSettings"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- ["So8NSObjectC", "PHAsset"]
+- ["So8NSObjectC", "SelectionView"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "areAnimationsEnabled"]
+- ["So8NSObjectC", "asset"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "photoSelected"]
+- ["So8NSObjectC", "selectionOverlayView"]
+- ["So8NSObjectC", "selectionString"]
+- ["So8NSObjectC", "selectionView"]
+- ["So8NSObjectC", "settings"]
+- !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "updateAlpha"]
+- !private ["So8NSObjectP", "CGAffineTransform"]
+- !private ["So8NSObjectP", "TimeInterval"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "alpha"]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "areAnimationsEnabled"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "photoSelected"]
+- !private ["So8NSObjectP", "selectionOverlayView"]
+- !private ["So8NSObjectP", "selectionString"]
+- !private ["So8NSObjectP", "selectionView"]
+- !private ["So8NSObjectP", "settings"]
+- !private ["So8NSObjectP", "transform"]
+- !private ["So8NSObjectP", "updateAlpha"]
+- !private ["Sj", "init"]
+- !private ["Sq", "alpha"]
+- !private ["Sq", "selectionString"]
+- !private ["Sq", "settings"]
+- ["13BSImagePicker9PhotoCellC", "BSImagePickerSettings"]
+- ["13BSImagePicker9PhotoCellC", "Bool"]
+- !private ["13BSImagePicker9PhotoCellC", "CGAffineTransform"]
+- ["13BSImagePicker9PhotoCellC", "PHAsset"]
+- ["13BSImagePicker9PhotoCellC", "SelectionView"]
+- ["13BSImagePicker9PhotoCellC", "String"]
+- !private ["13BSImagePicker9PhotoCellC", "TimeInterval"]
+- ["13BSImagePicker9PhotoCellC", "UIImageView"]
+- ["13BSImagePicker9PhotoCellC", "UIView"]
+- !private ["13BSImagePicker9PhotoCellC", "Void"]
+- ["13BSImagePicker9PhotoCellC", "asset"]
+- !private ["13BSImagePicker9PhotoCellC", "deinit"]
+- ["13BSImagePicker9PhotoCellC", "imageView"]
+- ["13BSImagePicker9PhotoCellC", "init"]
+- ["13BSImagePicker9PhotoCellC", "photoSelected"]
+- ["13BSImagePicker9PhotoCellC", "selectionOverlayView"]
+- ["13BSImagePicker9PhotoCellC", "selectionString"]
+- ["13BSImagePicker9PhotoCellC", "selectionView"]
+- ["13BSImagePicker9PhotoCellC", "settings"]
+- !private ["13BSImagePicker9PhotoCellC", "transform"]
+- !private ["13BSImagePicker9PhotoCellC", "updateAlpha"]
+- !private ["13BSImagePicker13SelectionViewC", "alpha"]
+- !private ["13BSImagePicker13SelectionViewC", "selectionString"]
+- !private ["13BSImagePicker13SelectionViewC", "settings"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGAffineTransform"]
+- !private ["So29UIAccessibilityIdentificationP", "TimeInterval"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "areAnimationsEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "photoSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "selectionOverlayView"]
+- !private ["So29UIAccessibilityIdentificationP", "selectionString"]
+- !private ["So29UIAccessibilityIdentificationP", "selectionView"]
+- !private ["So29UIAccessibilityIdentificationP", "settings"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So29UIAccessibilityIdentificationP", "updateAlpha"]
+- !private ["So12UIAppearanceP", "CGAffineTransform"]
+- !private ["So12UIAppearanceP", "TimeInterval"]
+- !private ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "areAnimationsEnabled"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "photoSelected"]
+- !private ["So12UIAppearanceP", "selectionOverlayView"]
+- !private ["So12UIAppearanceP", "selectionString"]
+- !private ["So12UIAppearanceP", "selectionView"]
+- !private ["So12UIAppearanceP", "settings"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So12UIAppearanceP", "updateAlpha"]
+- !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
+- !private ["So21UIAppearanceContainerP", "TimeInterval"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "areAnimationsEnabled"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "photoSelected"]
+- !private ["So21UIAppearanceContainerP", "selectionOverlayView"]
+- !private ["So21UIAppearanceContainerP", "selectionString"]
+- !private ["So21UIAppearanceContainerP", "selectionView"]
+- !private ["So21UIAppearanceContainerP", "settings"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So21UIAppearanceContainerP", "updateAlpha"]
+- ["So24UICollectionReusableViewC", "BSImagePickerSettings"]
+- ["So24UICollectionReusableViewC", "Bool"]
+- !private ["So24UICollectionReusableViewC", "CGAffineTransform"]
+- ["So24UICollectionReusableViewC", "PHAsset"]
+- ["So24UICollectionReusableViewC", "SelectionView"]
+- ["So24UICollectionReusableViewC", "String"]
+- !private ["So24UICollectionReusableViewC", "TimeInterval"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UIView"]
+- !private ["So24UICollectionReusableViewC", "Void"]
+- ["So24UICollectionReusableViewC", "asset"]
+- ["So24UICollectionReusableViewC", "imageView"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "photoSelected"]
+- ["So24UICollectionReusableViewC", "selectionOverlayView"]
+- ["So24UICollectionReusableViewC", "selectionString"]
+- ["So24UICollectionReusableViewC", "selectionView"]
+- ["So24UICollectionReusableViewC", "settings"]
+- !private ["So24UICollectionReusableViewC", "transform"]
+- ["So24UICollectionReusableViewC", "updateAlpha"]
+- ["So20UICollectionViewCellC", "BSImagePickerSettings"]
+- ["So20UICollectionViewCellC", "Bool"]
+- !private ["So20UICollectionViewCellC", "CGAffineTransform"]
+- ["So20UICollectionViewCellC", "PHAsset"]
+- ["So20UICollectionViewCellC", "SelectionView"]
+- ["So20UICollectionViewCellC", "String"]
+- !private ["So20UICollectionViewCellC", "TimeInterval"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UIView"]
+- !private ["So20UICollectionViewCellC", "Void"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "asset"]
+- ["So20UICollectionViewCellC", "imageView"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "photoSelected"]
+- ["So20UICollectionViewCellC", "selectionOverlayView"]
+- ["So20UICollectionViewCellC", "selectionString"]
+- ["So20UICollectionViewCellC", "selectionView"]
+- ["So20UICollectionViewCellC", "settings"]
+- !private ["So20UICollectionViewCellC", "transform"]
+- ["So20UICollectionViewCellC", "updateAlpha"]
+- !private ["So17UICoordinateSpaceP", "CGAffineTransform"]
+- !private ["So17UICoordinateSpaceP", "TimeInterval"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "areAnimationsEnabled"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "photoSelected"]
+- !private ["So17UICoordinateSpaceP", "selectionOverlayView"]
+- !private ["So17UICoordinateSpaceP", "selectionString"]
+- !private ["So17UICoordinateSpaceP", "selectionView"]
+- !private ["So17UICoordinateSpaceP", "settings"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So17UICoordinateSpaceP", "updateAlpha"]
+- !private ["So13UIDynamicItemP", "CGAffineTransform"]
+- !private ["So13UIDynamicItemP", "TimeInterval"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "areAnimationsEnabled"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "photoSelected"]
+- !private ["So13UIDynamicItemP", "selectionOverlayView"]
+- !private ["So13UIDynamicItemP", "selectionString"]
+- !private ["So13UIDynamicItemP", "selectionView"]
+- !private ["So13UIDynamicItemP", "settings"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So13UIDynamicItemP", "updateAlpha"]
+- !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
+- !private ["So18UIFocusEnvironmentP", "TimeInterval"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "areAnimationsEnabled"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "photoSelected"]
+- !private ["So18UIFocusEnvironmentP", "selectionOverlayView"]
+- !private ["So18UIFocusEnvironmentP", "selectionString"]
+- !private ["So18UIFocusEnvironmentP", "selectionView"]
+- !private ["So18UIFocusEnvironmentP", "settings"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "updateAlpha"]
+- !private ["So11UIFocusItemP", "CGAffineTransform"]
+- !private ["So11UIFocusItemP", "TimeInterval"]
+- !private ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "areAnimationsEnabled"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "photoSelected"]
+- !private ["So11UIFocusItemP", "selectionOverlayView"]
+- !private ["So11UIFocusItemP", "selectionString"]
+- !private ["So11UIFocusItemP", "selectionView"]
+- !private ["So11UIFocusItemP", "settings"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So11UIFocusItemP", "updateAlpha"]
+- !private ["So20UIFocusItemContainerP", "CGAffineTransform"]
+- !private ["So20UIFocusItemContainerP", "TimeInterval"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "areAnimationsEnabled"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "photoSelected"]
+- !private ["So20UIFocusItemContainerP", "selectionOverlayView"]
+- !private ["So20UIFocusItemContainerP", "selectionString"]
+- !private ["So20UIFocusItemContainerP", "selectionView"]
+- !private ["So20UIFocusItemContainerP", "settings"]
+- !private ["So20UIFocusItemContainerP", "transform"]
+- !private ["So20UIFocusItemContainerP", "updateAlpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGAffineTransform"]
+- !private ["So30UIPasteConfigurationSupportingP", "TimeInterval"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "areAnimationsEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "photoSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionOverlayView"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionString"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "settings"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateAlpha"]
+- ["So11UIResponderC", "BSImagePickerSettings"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGAffineTransform"]
+- ["So11UIResponderC", "PHAsset"]
+- ["So11UIResponderC", "SelectionView"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "TimeInterval"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "areAnimationsEnabled"]
+- ["So11UIResponderC", "asset"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "photoSelected"]
+- ["So11UIResponderC", "selectionOverlayView"]
+- ["So11UIResponderC", "selectionString"]
+- ["So11UIResponderC", "selectionView"]
+- ["So11UIResponderC", "settings"]
+- !private ["So11UIResponderC", "transform"]
+- ["So11UIResponderC", "updateAlpha"]
+- !private ["So30UIResponderStandardEditActionsP", "CGAffineTransform"]
+- !private ["So30UIResponderStandardEditActionsP", "TimeInterval"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "areAnimationsEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "photoSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionOverlayView"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionString"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "settings"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So30UIResponderStandardEditActionsP", "updateAlpha"]
+- !private ["So18UITraitEnvironmentP", "CGAffineTransform"]
+- !private ["So18UITraitEnvironmentP", "TimeInterval"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "areAnimationsEnabled"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "photoSelected"]
+- !private ["So18UITraitEnvironmentP", "selectionOverlayView"]
+- !private ["So18UITraitEnvironmentP", "selectionString"]
+- !private ["So18UITraitEnvironmentP", "selectionView"]
+- !private ["So18UITraitEnvironmentP", "settings"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So18UITraitEnvironmentP", "updateAlpha"]
+- !private ["So23UIUserActivityRestoringP", "CGAffineTransform"]
+- !private ["So23UIUserActivityRestoringP", "TimeInterval"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- !private ["So23UIUserActivityRestoringP", "areAnimationsEnabled"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "photoSelected"]
+- !private ["So23UIUserActivityRestoringP", "selectionOverlayView"]
+- !private ["So23UIUserActivityRestoringP", "selectionString"]
+- !private ["So23UIUserActivityRestoringP", "selectionView"]
+- !private ["So23UIUserActivityRestoringP", "settings"]
+- !private ["So23UIUserActivityRestoringP", "transform"]
+- !private ["So23UIUserActivityRestoringP", "updateAlpha"]
+- ["So6UIViewC", "BSImagePickerSettings"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "CGAffineTransform"]
+- ["So6UIViewC", "PHAsset"]
+- ["So6UIViewC", "SelectionView"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "TimeInterval"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "Void"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "areAnimationsEnabled"]
+- ["So6UIViewC", "asset"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "photoSelected"]
+- ["So6UIViewC", "selectionOverlayView"]
+- ["So6UIViewC", "selectionString"]
+- ["So6UIViewC", "selectionView"]
+- ["So6UIViewC", "settings"]
+- !private ["So6UIViewC", "transform"]
+- ["So6UIViewC", "updateAlpha"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGAffineTransform"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "TimeInterval"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "areAnimationsEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "photoSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectionOverlayView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectionString"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectionView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "settings"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateAlpha"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "areAnimationsEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photoSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionOverlayView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateAlpha"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "alpha"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "selectionString"]
+- !private ["s21_ObjectiveCBridgeableP", "settings"]
+depends-nominal:
+- !private "SB"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "So17CGAffineTransformV"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- "13BSImagePicker9PhotoCellC"
+- !private "13BSImagePicker13SelectionViewC"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSImagePicker/BSImagePicker-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSImagePicker.build/unextended-module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/UIImageViewModeScaleAspect.build/module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSGridCollectionViewLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b65bdc6c1bfe65b22734250e09c1cb6d"

@@ -1,0 +1,13 @@
+platform :ios, '11.3'
+use_frameworks!
+
+target 'SchoolToday' do
+    pod 'Alamofire'
+    pod 'AlamofireImage'
+    pod 'SwiftyJSON'
+    pod 'BSImagePicker'
+    pod 'SwiftShims'
+
+end
+
+

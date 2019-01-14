@@ -1,0 +1,200 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BSGridCollectionViewLayout-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BSGridCollectionViewLayout-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSGridCollectionViewLayout.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSImagePicker/BSImagePicker.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BSImagePicker-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSImagePicker/BSImagePicker.framework/Headers/BSImagePicker-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BSImagePicker-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSImagePicker/BSImagePicker-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSImagePicker/BSImagePicker.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSImagePicker.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Pods_SchoolToday.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-SchoolToday-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/Pods-SchoolToday/Pods-SchoolToday-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_SchoolToday-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Pods_SchoolToday.framework/Headers/Pods_SchoolToday-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/Pods_SchoolToday.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/Pods-SchoolToday.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UIImageViewModeScaleAspect-Swift.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.framework/Headers/UIImageViewModeScaleAspect-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageViewModeScaleAspect-umbrella.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageViewModeScaleAspect.h",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/Pods/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/UIImageViewModeScaleAspect.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

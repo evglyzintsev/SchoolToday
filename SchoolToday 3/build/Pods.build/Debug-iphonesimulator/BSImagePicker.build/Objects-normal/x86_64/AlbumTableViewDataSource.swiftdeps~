@@ -1,0 +1,799 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlbumTableViewDataSource"
+provides-nominal:
+- "13BSImagePicker24AlbumTableViewDataSourceC"
+provides-member:
+- ["13BSImagePicker24AlbumTableViewDataSourceC", ""]
+provides-dynamic-lookup:
+- "fetchResults"
+- "numberOfSections"
+- "tableView"
+depends-top-level:
+- !private "AlbumCell"
+- "AlbumTableViewDataSource"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGSize"
+- "CastingPrecedence"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- !private "NSPredicate"
+- !private "NSSortDescriptor"
+- !private "PHAsset"
+- "PHAssetCollection"
+- !private "PHAssetMediaType"
+- !private "PHCachingImageManager"
+- !private "PHFetchOptions"
+- "PHFetchResult"
+- !private "PHImageContentMode"
+- "StringLiteralType"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "~="
+depends-member:
+- !private ["13BSImagePicker9AlbumCellC", "albumTitleLabel"]
+- !private ["13BSImagePicker9AlbumCellC", "firstImageView"]
+- !private ["13BSImagePicker9AlbumCellC", "secondImageView"]
+- !private ["13BSImagePicker9AlbumCellC", "selectionStyle"]
+- !private ["13BSImagePicker9AlbumCellC", "thirdImageView"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "AlbumCell"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "CGSize"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "IndexPath"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "Int"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "NSPredicate"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "NSSortDescriptor"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "PHAsset"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "PHAssetCollection"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "PHAssetMediaType"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "PHCachingImageManager"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "PHFetchOptions"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "PHFetchResult"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "PHImageContentMode"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "UITableView"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "UITableViewCell"]
+- !private ["13BSImagePicker24AlbumTableViewDataSourceC", "albumCellIdentifier"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "deinit"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "fetchResults"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "init"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "numberOfSections"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "numberOfSectionsInTableView"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "sectionIndexTitles"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "sectionIndexTitlesForTableView"]
+- ["13BSImagePicker24AlbumTableViewDataSourceC", "tableView"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "section"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "albumTitleLabel"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "firstImageView"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "secondImageView"]
+- !private ["So15CALayerDelegateP", "selectionStyle"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "thirdImageView"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "NSPredicate"]
+- !private ["s7CVarArgP", "NSSortDescriptor"]
+- !private ["s7CVarArgP", "PHAsset"]
+- !private ["s7CVarArgP", "PHAssetMediaType"]
+- !private ["s7CVarArgP", "PHCachingImageManager"]
+- !private ["s7CVarArgP", "PHFetchOptions"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "albumCellIdentifier"]
+- !private ["s7CVarArgP", "albumTitleLabel"]
+- !private ["s7CVarArgP", "allowsCachingHighQualityImages"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "enumerateObjects"]
+- !private ["s7CVarArgP", "fetchAssets"]
+- !private ["s7CVarArgP", "fetchResults"]
+- !private ["s7CVarArgP", "firstImageView"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "localizedTitle"]
+- ["s7CVarArgP", "numberOfSections"]
+- ["s7CVarArgP", "numberOfSectionsInTableView"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "requestImage"]
+- !private ["s7CVarArgP", "secondImageView"]
+- ["s7CVarArgP", "sectionIndexTitles"]
+- ["s7CVarArgP", "sectionIndexTitlesForTableView"]
+- !private ["s7CVarArgP", "selectionStyle"]
+- !private ["s7CVarArgP", "sortDescriptors"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "thirdImageView"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "section"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "initialize"]
+- !private ["s10ComparableP", "row"]
+- !private ["s10ComparableP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPredicate"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSortDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "PHAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "PHAssetMediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "PHCachingImageManager"]
+- !private ["s28CustomDebugStringConvertibleP", "PHFetchOptions"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "albumCellIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "albumTitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "allowsCachingHighQualityImages"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerateObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchAssets"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchResults"]
+- !private ["s28CustomDebugStringConvertibleP", "firstImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedTitle"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSections"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "requestImage"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "secondImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "section"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitles"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "sortDescriptors"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "thirdImageView"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "section"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "NSPredicate"]
+- !private ["s23CustomStringConvertibleP", "NSSortDescriptor"]
+- !private ["s23CustomStringConvertibleP", "PHAsset"]
+- !private ["s23CustomStringConvertibleP", "PHAssetMediaType"]
+- !private ["s23CustomStringConvertibleP", "PHCachingImageManager"]
+- !private ["s23CustomStringConvertibleP", "PHFetchOptions"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "albumCellIdentifier"]
+- !private ["s23CustomStringConvertibleP", "albumTitleLabel"]
+- !private ["s23CustomStringConvertibleP", "allowsCachingHighQualityImages"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "enumerateObjects"]
+- !private ["s23CustomStringConvertibleP", "fetchAssets"]
+- !private ["s23CustomStringConvertibleP", "fetchResults"]
+- !private ["s23CustomStringConvertibleP", "firstImageView"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localizedTitle"]
+- ["s23CustomStringConvertibleP", "numberOfSections"]
+- ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "requestImage"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "secondImageView"]
+- !private ["s23CustomStringConvertibleP", "section"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitles"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s23CustomStringConvertibleP", "selectionStyle"]
+- !private ["s23CustomStringConvertibleP", "sortDescriptors"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "thirdImageView"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "section"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "section"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "NSPredicate"]
+- !private ["s9EquatableP", "NSSortDescriptor"]
+- !private ["s9EquatableP", "PHAsset"]
+- !private ["s9EquatableP", "PHAssetMediaType"]
+- !private ["s9EquatableP", "PHCachingImageManager"]
+- !private ["s9EquatableP", "PHFetchOptions"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "albumCellIdentifier"]
+- !private ["s9EquatableP", "albumTitleLabel"]
+- !private ["s9EquatableP", "allowsCachingHighQualityImages"]
+- !private ["s9EquatableP", "aspectFill"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "enumerateObjects"]
+- !private ["s9EquatableP", "fetchAssets"]
+- !private ["s9EquatableP", "fetchResults"]
+- !private ["s9EquatableP", "firstImageView"]
+- !private ["s9EquatableP", "image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- !private ["s9EquatableP", "localizedTitle"]
+- !private ["s9EquatableP", "none"]
+- ["s9EquatableP", "numberOfSections"]
+- ["s9EquatableP", "numberOfSectionsInTableView"]
+- !private ["s9EquatableP", "predicate"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "requestImage"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "secondImageView"]
+- !private ["s9EquatableP", "section"]
+- ["s9EquatableP", "sectionIndexTitles"]
+- ["s9EquatableP", "sectionIndexTitlesForTableView"]
+- !private ["s9EquatableP", "selectionStyle"]
+- !private ["s9EquatableP", "sortDescriptors"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "thirdImageView"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "section"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "NSPredicate"]
+- !private ["s8HashableP", "NSSortDescriptor"]
+- !private ["s8HashableP", "PHAsset"]
+- !private ["s8HashableP", "PHAssetMediaType"]
+- !private ["s8HashableP", "PHCachingImageManager"]
+- !private ["s8HashableP", "PHFetchOptions"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "albumCellIdentifier"]
+- !private ["s8HashableP", "albumTitleLabel"]
+- !private ["s8HashableP", "allowsCachingHighQualityImages"]
+- !private ["s8HashableP", "aspectFill"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "enumerateObjects"]
+- !private ["s8HashableP", "fetchAssets"]
+- !private ["s8HashableP", "fetchResults"]
+- !private ["s8HashableP", "firstImageView"]
+- !private ["s8HashableP", "image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- !private ["s8HashableP", "localizedTitle"]
+- !private ["s8HashableP", "none"]
+- ["s8HashableP", "numberOfSections"]
+- ["s8HashableP", "numberOfSectionsInTableView"]
+- !private ["s8HashableP", "predicate"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "requestImage"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "secondImageView"]
+- !private ["s8HashableP", "section"]
+- ["s8HashableP", "sectionIndexTitles"]
+- ["s8HashableP", "sectionIndexTitlesForTableView"]
+- !private ["s8HashableP", "selectionStyle"]
+- !private ["s8HashableP", "sortDescriptors"]
+- !private ["s8HashableP", "subscript"]
+- ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "thirdImageView"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation9IndexPathV", "section"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "section"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "albumTitleLabel"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "firstImageView"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "secondImageView"]
+- !private ["So8NSCodingP", "selectionStyle"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "thirdImageView"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "enumerateObjects"]
+- !private ["So9NSCopyingP", "fetchAssets"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "localizedTitle"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So9NSCopyingP", "sortDescriptors"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "enumerateObjects"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So8NSObjectC", "AlbumCell"]
+- !private ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSPredicate"]
+- !private ["So8NSObjectC", "NSSortDescriptor"]
+- !private ["So8NSObjectC", "PHAsset"]
+- ["So8NSObjectC", "PHAssetCollection"]
+- !private ["So8NSObjectC", "PHAssetMediaType"]
+- !private ["So8NSObjectC", "PHCachingImageManager"]
+- !private ["So8NSObjectC", "PHFetchOptions"]
+- ["So8NSObjectC", "PHFetchResult"]
+- !private ["So8NSObjectC", "PHImageContentMode"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "albumCellIdentifier"]
+- !private ["So8NSObjectC", "albumTitleLabel"]
+- !private ["So8NSObjectC", "allowsCachingHighQualityImages"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "enumerateObjects"]
+- !private ["So8NSObjectC", "fetchAssets"]
+- ["So8NSObjectC", "fetchResults"]
+- !private ["So8NSObjectC", "firstImageView"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "localizedTitle"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "numberOfSectionsInTableView"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "requestImage"]
+- !private ["So8NSObjectC", "secondImageView"]
+- ["So8NSObjectC", "sectionIndexTitles"]
+- ["So8NSObjectC", "sectionIndexTitlesForTableView"]
+- !private ["So8NSObjectC", "selectionStyle"]
+- !private ["So8NSObjectC", "sortDescriptors"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "thirdImageView"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "NSPredicate"]
+- !private ["So16NSObjectProtocolP", "NSSortDescriptor"]
+- !private ["So16NSObjectProtocolP", "PHAsset"]
+- !private ["So16NSObjectProtocolP", "PHAssetMediaType"]
+- !private ["So16NSObjectProtocolP", "PHCachingImageManager"]
+- !private ["So16NSObjectProtocolP", "PHFetchOptions"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "albumCellIdentifier"]
+- !private ["So16NSObjectProtocolP", "albumTitleLabel"]
+- !private ["So16NSObjectProtocolP", "allowsCachingHighQualityImages"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "enumerateObjects"]
+- !private ["So16NSObjectProtocolP", "fetchAssets"]
+- !private ["So16NSObjectProtocolP", "fetchResults"]
+- !private ["So16NSObjectProtocolP", "firstImageView"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "localizedTitle"]
+- ["So16NSObjectProtocolP", "numberOfSections"]
+- ["So16NSObjectProtocolP", "numberOfSectionsInTableView"]
+- !private ["So16NSObjectProtocolP", "predicate"]
+- !private ["So16NSObjectProtocolP", "requestImage"]
+- !private ["So16NSObjectProtocolP", "secondImageView"]
+- ["So16NSObjectProtocolP", "sectionIndexTitles"]
+- ["So16NSObjectProtocolP", "sectionIndexTitlesForTableView"]
+- !private ["So16NSObjectProtocolP", "selectionStyle"]
+- !private ["So16NSObjectProtocolP", "sortDescriptors"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "thirdImageView"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So16NSSortDescriptorC", "init"]
+- !private ["So7PHAssetC", "fetchAssets"]
+- !private ["So17PHAssetCollectionC", "localizedTitle"]
+- !private ["SC16PHAssetMediaTypeO", "image"]
+- !private ["SC16PHAssetMediaTypeO", "rawValue"]
+- !private ["So21PHCachingImageManagerC", "allowsCachingHighQualityImages"]
+- !private ["So21PHCachingImageManagerC", "default"]
+- !private ["So12PHCollectionC", "localizedTitle"]
+- !private ["So14PHFetchOptionsC", "init"]
+- !private ["So14PHFetchOptionsC", "predicate"]
+- !private ["So14PHFetchOptionsC", "sortDescriptors"]
+- !private ["So13PHFetchResultC", "count"]
+- !private ["So13PHFetchResultC", "enumerateObjects"]
+- !private ["So13PHFetchResultC", "subscript"]
+- !private ["SC18PHImageContentModeO", "aspectFill"]
+- !private ["So14PHImageManagerC", "allowsCachingHighQualityImages"]
+- !private ["So14PHImageManagerC", "default"]
+- !private ["So14PHImageManagerC", "requestImage"]
+- !private ["So8PHObjectC", "fetchAssets"]
+- !private ["So8PHObjectC", "localizedTitle"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "section"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "aspectFill"]
+- !private ["s16RawRepresentableP", "image"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Foundation20ReferenceConvertibleP", "section"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "section"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "initialize"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "albumTitleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "firstImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "secondImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "selectionStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "thirdImageView"]
+- !private ["So12UIAppearanceP", "albumTitleLabel"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "firstImageView"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "secondImageView"]
+- !private ["So12UIAppearanceP", "selectionStyle"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "thirdImageView"]
+- !private ["So21UIAppearanceContainerP", "albumTitleLabel"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "firstImageView"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "secondImageView"]
+- !private ["So21UIAppearanceContainerP", "selectionStyle"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "thirdImageView"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "albumTitleLabel"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "firstImageView"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "secondImageView"]
+- !private ["So17UICoordinateSpaceP", "selectionStyle"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "thirdImageView"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "albumTitleLabel"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "firstImageView"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "secondImageView"]
+- !private ["So13UIDynamicItemP", "selectionStyle"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "thirdImageView"]
+- !private ["So18UIFocusEnvironmentP", "albumTitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "firstImageView"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "secondImageView"]
+- !private ["So18UIFocusEnvironmentP", "selectionStyle"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "thirdImageView"]
+- !private ["So11UIFocusItemP", "albumTitleLabel"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "firstImageView"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "secondImageView"]
+- !private ["So11UIFocusItemP", "selectionStyle"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "thirdImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "albumTitleLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "firstImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "secondImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "selectionStyle"]
+- !private ["So27UIGestureRecognizerDelegateP", "thirdImageView"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "albumTitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "firstImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "secondImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "thirdImageView"]
+- !private ["So11UIResponderC", "albumTitleLabel"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "firstImageView"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So11UIResponderC", "secondImageView"]
+- !private ["So11UIResponderC", "selectionStyle"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "thirdImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "albumTitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "firstImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "secondImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "thirdImageView"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So15UITableViewCellC", "albumTitleLabel"]
+- !private ["So15UITableViewCellC", "firstImageView"]
+- !private ["So15UITableViewCellC", "secondImageView"]
+- !private ["So15UITableViewCellC", "selectionStyle"]
+- !private ["So15UITableViewCellC", "thirdImageView"]
+- !private ["SC29UITableViewCellSelectionStyleO", "none"]
+- !private ["So21UITableViewDataSourceP", "CGSize"]
+- !private ["So21UITableViewDataSourceP", "NSPredicate"]
+- !private ["So21UITableViewDataSourceP", "NSSortDescriptor"]
+- !private ["So21UITableViewDataSourceP", "PHAsset"]
+- !private ["So21UITableViewDataSourceP", "PHAssetMediaType"]
+- !private ["So21UITableViewDataSourceP", "PHCachingImageManager"]
+- !private ["So21UITableViewDataSourceP", "PHFetchOptions"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "albumCellIdentifier"]
+- !private ["So21UITableViewDataSourceP", "fetchResults"]
+- ["So21UITableViewDataSourceP", "numberOfSections"]
+- ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitles"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitlesForTableView"]
+- ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "albumTitleLabel"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "firstImageView"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "secondImageView"]
+- !private ["So18UITraitEnvironmentP", "selectionStyle"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "thirdImageView"]
+- !private ["So6UIViewC", "albumTitleLabel"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "firstImageView"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "secondImageView"]
+- !private ["So6UIViewC", "selectionStyle"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "thirdImageView"]
+- !private ["Sp", "initialize"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "albumTitleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "firstImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "secondImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectionStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "thirdImageView"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSortDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PHAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PHAssetMediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PHCachingImageManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PHFetchOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "albumCellIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "albumTitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsCachingHighQualityImages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchAssets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchResults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedTitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitles"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitlesForTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sortDescriptors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thirdImageView"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "section"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "initialize"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13BSImagePicker9AlbumCellC"
+- "13BSImagePicker24AlbumTableViewDataSourceC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So16NSSortDescriptorC"
+- !private "So7PHAssetC"
+- !private "So17PHAssetCollectionC"
+- !private "SC16PHAssetMediaTypeO"
+- !private "So21PHCachingImageManagerC"
+- !private "So12PHCollectionC"
+- !private "So14PHFetchOptionsC"
+- !private "So13PHFetchResultC"
+- !private "SC18PHImageContentModeO"
+- !private "So14PHImageManagerC"
+- !private "So8PHObjectC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- !private "SC29UITableViewCellSelectionStyleO"
+- "So21UITableViewDataSourceP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSImagePicker/BSImagePicker-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSImagePicker.build/unextended-module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/UIImageViewModeScaleAspect.build/module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSGridCollectionViewLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "95f450f749fe91ca3ecce3e976680d84"

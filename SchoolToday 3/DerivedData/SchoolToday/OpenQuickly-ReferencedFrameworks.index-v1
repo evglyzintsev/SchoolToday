@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Foundation</string>
+	<string>SwiftyJSON</string>
+	<string>CoreData</string>
+	<string>AppKit</string>
+	<string>AlamofireImage</string>
+	<string>Dispatch</string>
+	<string>CoreGraphics</string>
+	<string>AVFoundation</string>
+	<string>Alamofire</string>
+	<string>CoreServices</string>
+	<string>UIKit</string>
+	<string>BSImagePicker</string>
+	<string>CoreImage</string>
+	<string>Photos</string>
+	<string>WatchKit</string>
+	<string>SystemConfiguration</string>
+	<string>UIImageViewModeScaleAspect</string>
+	<string>BSGridCollectionViewLayout</string>
+	<string>MobileCoreServices</string>
+	<string>Cocoa</string>
+</array>
+</plist>

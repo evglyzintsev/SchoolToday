@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bs_presentImagePickerController"]
+provides-dynamic-lookup:
+- "bs_presentImagePickerController"
+depends-top-level:
+- !private "=="
+- !private "AssignmentPrecedence"
+- "BSImagePickerViewController"
+- "Bool"
+- "BooleanLiteralType"
+- "PHAsset"
+- "UIViewController"
+- "Void"
+depends-member:
+- !private ["13BSImagePicker0aB8SettingsP", "authorize"]
+- !private ["13BSImagePicker0aB8SettingsP", "photosViewController"]
+- !private ["13BSImagePicker0aB14ViewControllerC", "authorize"]
+- !private ["13BSImagePicker0aB14ViewControllerC", "photosViewController"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "BSImagePickerViewController"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "authorize"]
+- !private ["s7CVarArgP", "cancelClosure"]
+- !private ["s7CVarArgP", "deselectionClosure"]
+- !private ["s7CVarArgP", "finishClosure"]
+- !private ["s7CVarArgP", "photosViewController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "selectionClosure"]
+- !private ["s28CustomDebugStringConvertibleP", "BSImagePickerViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "authorize"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelClosure"]
+- !private ["s28CustomDebugStringConvertibleP", "deselectionClosure"]
+- !private ["s28CustomDebugStringConvertibleP", "finishClosure"]
+- !private ["s28CustomDebugStringConvertibleP", "photosViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionClosure"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "BSImagePickerViewController"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "authorize"]
+- !private ["s23CustomStringConvertibleP", "cancelClosure"]
+- !private ["s23CustomStringConvertibleP", "deselectionClosure"]
+- !private ["s23CustomStringConvertibleP", "finishClosure"]
+- !private ["s23CustomStringConvertibleP", "photosViewController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "selectionClosure"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "BSImagePickerViewController"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "authorize"]
+- !private ["SQ", "cancelClosure"]
+- !private ["SQ", "deselectionClosure"]
+- !private ["SQ", "finishClosure"]
+- !private ["SQ", "photosViewController"]
+- !private ["SQ", "present"]
+- !private ["SQ", "selectionClosure"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "BSImagePickerViewController"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "authorize"]
+- !private ["SH", "cancelClosure"]
+- !private ["SH", "deselectionClosure"]
+- !private ["SH", "finishClosure"]
+- !private ["SH", "photosViewController"]
+- !private ["SH", "present"]
+- !private ["SH", "selectionClosure"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "BSImagePickerViewController"]
+- !private ["So8NSCodingP", "authorize"]
+- !private ["So8NSCodingP", "cancelClosure"]
+- !private ["So8NSCodingP", "deselectionClosure"]
+- !private ["So8NSCodingP", "finishClosure"]
+- !private ["So8NSCodingP", "photosViewController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "selectionClosure"]
+- !private ["So26NSExtensionRequestHandlingP", "BSImagePickerViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "authorize"]
+- !private ["So26NSExtensionRequestHandlingP", "cancelClosure"]
+- !private ["So26NSExtensionRequestHandlingP", "deselectionClosure"]
+- !private ["So26NSExtensionRequestHandlingP", "finishClosure"]
+- !private ["So26NSExtensionRequestHandlingP", "photosViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "selectionClosure"]
+- ["So8NSObjectC", "BSImagePickerViewController"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "PHAsset"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "authorize"]
+- ["So8NSObjectC", "bs_presentImagePickerController"]
+- !private ["So8NSObjectC", "cancelClosure"]
+- !private ["So8NSObjectC", "deselectionClosure"]
+- !private ["So8NSObjectC", "finishClosure"]
+- !private ["So8NSObjectC", "photosViewController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "selectionClosure"]
+- !private ["So8NSObjectP", "BSImagePickerViewController"]
+- !private ["So8NSObjectP", "authorize"]
+- !private ["So8NSObjectP", "cancelClosure"]
+- !private ["So8NSObjectP", "deselectionClosure"]
+- !private ["So8NSObjectP", "finishClosure"]
+- !private ["So8NSObjectP", "photosViewController"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "selectionClosure"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "cancelClosure"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "deselectionClosure"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "finishClosure"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "selectionClosure"]
+- !private ["13BSImagePicker20PhotosViewControllerC", "cancelClosure"]
+- !private ["13BSImagePicker20PhotosViewControllerC", "deselectionClosure"]
+- !private ["13BSImagePicker20PhotosViewControllerC", "finishClosure"]
+- !private ["13BSImagePicker20PhotosViewControllerC", "selectionClosure"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "cancelClosure"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "deselectionClosure"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "finishClosure"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "selectionClosure"]
+- !private ["So21UIAppearanceContainerP", "BSImagePickerViewController"]
+- !private ["So21UIAppearanceContainerP", "authorize"]
+- !private ["So21UIAppearanceContainerP", "cancelClosure"]
+- !private ["So21UIAppearanceContainerP", "deselectionClosure"]
+- !private ["So21UIAppearanceContainerP", "finishClosure"]
+- !private ["So21UIAppearanceContainerP", "photosViewController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "selectionClosure"]
+- !private ["So26UICollectionViewControllerC", "cancelClosure"]
+- !private ["So26UICollectionViewControllerC", "deselectionClosure"]
+- !private ["So26UICollectionViewControllerC", "finishClosure"]
+- !private ["So26UICollectionViewControllerC", "selectionClosure"]
+- !private ["So26UICollectionViewDataSourceP", "cancelClosure"]
+- !private ["So26UICollectionViewDataSourceP", "deselectionClosure"]
+- !private ["So26UICollectionViewDataSourceP", "finishClosure"]
+- !private ["So26UICollectionViewDataSourceP", "selectionClosure"]
+- !private ["So24UICollectionViewDelegateP", "cancelClosure"]
+- !private ["So24UICollectionViewDelegateP", "deselectionClosure"]
+- !private ["So24UICollectionViewDelegateP", "finishClosure"]
+- !private ["So24UICollectionViewDelegateP", "selectionClosure"]
+- !private ["So18UIContentContainerP", "BSImagePickerViewController"]
+- !private ["So18UIContentContainerP", "authorize"]
+- !private ["So18UIContentContainerP", "cancelClosure"]
+- !private ["So18UIContentContainerP", "deselectionClosure"]
+- !private ["So18UIContentContainerP", "finishClosure"]
+- !private ["So18UIContentContainerP", "photosViewController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "selectionClosure"]
+- !private ["So18UIFocusEnvironmentP", "BSImagePickerViewController"]
+- !private ["So18UIFocusEnvironmentP", "authorize"]
+- !private ["So18UIFocusEnvironmentP", "cancelClosure"]
+- !private ["So18UIFocusEnvironmentP", "deselectionClosure"]
+- !private ["So18UIFocusEnvironmentP", "finishClosure"]
+- !private ["So18UIFocusEnvironmentP", "photosViewController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "selectionClosure"]
+- !private ["So31UIImagePickerControllerDelegateP", "cancelClosure"]
+- !private ["So31UIImagePickerControllerDelegateP", "deselectionClosure"]
+- !private ["So31UIImagePickerControllerDelegateP", "finishClosure"]
+- !private ["So31UIImagePickerControllerDelegateP", "selectionClosure"]
+- !private ["So22UINavigationControllerC", "authorize"]
+- !private ["So22UINavigationControllerC", "photosViewController"]
+- !private ["So30UINavigationControllerDelegateP", "cancelClosure"]
+- !private ["So30UINavigationControllerDelegateP", "deselectionClosure"]
+- !private ["So30UINavigationControllerDelegateP", "finishClosure"]
+- !private ["So30UINavigationControllerDelegateP", "selectionClosure"]
+- !private ["So30UIPasteConfigurationSupportingP", "BSImagePickerViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "authorize"]
+- !private ["So30UIPasteConfigurationSupportingP", "cancelClosure"]
+- !private ["So30UIPasteConfigurationSupportingP", "deselectionClosure"]
+- !private ["So30UIPasteConfigurationSupportingP", "finishClosure"]
+- !private ["So30UIPasteConfigurationSupportingP", "photosViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionClosure"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "cancelClosure"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "deselectionClosure"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "finishClosure"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "selectionClosure"]
+- ["So11UIResponderC", "BSImagePickerViewController"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "PHAsset"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "authorize"]
+- ["So11UIResponderC", "bs_presentImagePickerController"]
+- !private ["So11UIResponderC", "cancelClosure"]
+- !private ["So11UIResponderC", "deselectionClosure"]
+- !private ["So11UIResponderC", "finishClosure"]
+- !private ["So11UIResponderC", "photosViewController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "selectionClosure"]
+- !private ["So30UIResponderStandardEditActionsP", "BSImagePickerViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "authorize"]
+- !private ["So30UIResponderStandardEditActionsP", "cancelClosure"]
+- !private ["So30UIResponderStandardEditActionsP", "deselectionClosure"]
+- !private ["So30UIResponderStandardEditActionsP", "finishClosure"]
+- !private ["So30UIResponderStandardEditActionsP", "photosViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionClosure"]
+- !private ["So20UIScrollViewDelegateP", "cancelClosure"]
+- !private ["So20UIScrollViewDelegateP", "deselectionClosure"]
+- !private ["So20UIScrollViewDelegateP", "finishClosure"]
+- !private ["So20UIScrollViewDelegateP", "selectionClosure"]
+- !private ["So16UIStateRestoringP", "BSImagePickerViewController"]
+- !private ["So16UIStateRestoringP", "authorize"]
+- !private ["So16UIStateRestoringP", "cancelClosure"]
+- !private ["So16UIStateRestoringP", "deselectionClosure"]
+- !private ["So16UIStateRestoringP", "finishClosure"]
+- !private ["So16UIStateRestoringP", "photosViewController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "selectionClosure"]
+- !private ["So19UITableViewDelegateP", "cancelClosure"]
+- !private ["So19UITableViewDelegateP", "deselectionClosure"]
+- !private ["So19UITableViewDelegateP", "finishClosure"]
+- !private ["So19UITableViewDelegateP", "selectionClosure"]
+- !private ["So18UITraitEnvironmentP", "BSImagePickerViewController"]
+- !private ["So18UITraitEnvironmentP", "authorize"]
+- !private ["So18UITraitEnvironmentP", "cancelClosure"]
+- !private ["So18UITraitEnvironmentP", "deselectionClosure"]
+- !private ["So18UITraitEnvironmentP", "finishClosure"]
+- !private ["So18UITraitEnvironmentP", "photosViewController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "selectionClosure"]
+- !private ["So23UIUserActivityRestoringP", "BSImagePickerViewController"]
+- !private ["So23UIUserActivityRestoringP", "authorize"]
+- !private ["So23UIUserActivityRestoringP", "cancelClosure"]
+- !private ["So23UIUserActivityRestoringP", "deselectionClosure"]
+- !private ["So23UIUserActivityRestoringP", "finishClosure"]
+- !private ["So23UIUserActivityRestoringP", "photosViewController"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "selectionClosure"]
+- ["So16UIViewControllerC", "BSImagePickerViewController"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "PHAsset"]
+- ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "authorize"]
+- ["So16UIViewControllerC", "bs_presentImagePickerController"]
+- !private ["So16UIViewControllerC", "cancelClosure"]
+- !private ["So16UIViewControllerC", "deselectionClosure"]
+- !private ["So16UIViewControllerC", "finishClosure"]
+- !private ["So16UIViewControllerC", "photosViewController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "selectionClosure"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BSImagePickerViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelClosure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deselectionClosure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finishClosure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photosViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionClosure"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "13BSImagePicker0aB8SettingsP"
+- !private "13BSImagePicker0aB14ViewControllerC"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So28PHPhotoLibraryChangeObserverP"
+- !private "13BSImagePicker20PhotosViewControllerC"
+- !private "So40UIAdaptivePresentationControllerDelegateP"
+- !private "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewControllerC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So31UIImagePickerControllerDelegateP"
+- !private "So22UINavigationControllerC"
+- !private "So30UINavigationControllerDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So39UIPopoverPresentationControllerDelegateP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSImagePicker/BSImagePicker-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/Pods/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSImagePicker.build/unextended-module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/UIImageViewModeScaleAspect.build/module.modulemap"
+- "/Users/podvorniy/Desktop/SchoolToday 3/build/Pods.build/Debug-iphonesimulator/BSGridCollectionViewLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "267774a2d3825fddea5586486f48aa94"

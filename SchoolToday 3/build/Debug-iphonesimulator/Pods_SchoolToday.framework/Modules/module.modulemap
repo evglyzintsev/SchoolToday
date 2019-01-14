@@ -1,0 +1,6 @@
+framework module Pods_SchoolToday {
+  umbrella header "Pods-SchoolToday-umbrella.h"
+
+  export *
+  module * { export * }
+}

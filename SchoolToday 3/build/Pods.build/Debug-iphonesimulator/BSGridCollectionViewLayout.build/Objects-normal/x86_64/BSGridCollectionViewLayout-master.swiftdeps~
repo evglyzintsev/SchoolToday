@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "42260244dcdd8e3791dc86cca8eb2824"
+build_time: [1545457435, 932622000]
+inputs:
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/BSGridCollectionViewLayout/Pod/Classes/GridCollectionViewLayout.swift": [1545456994, 0]

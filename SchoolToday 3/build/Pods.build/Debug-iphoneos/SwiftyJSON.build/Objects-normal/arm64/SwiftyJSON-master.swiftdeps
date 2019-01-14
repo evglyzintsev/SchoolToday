@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "c6c7219aec3521ee715954e86670e558"
+build_time: [1544031396, 200378000]
+inputs:
+  "/Users/podvorniy/Desktop/SchoolToday 3/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1542291278, 0]
