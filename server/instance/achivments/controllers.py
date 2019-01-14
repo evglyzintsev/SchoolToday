@@ -1,26 +1,24 @@
 from flask import Blueprint, request, Response, jsonify
-from instance.database import db
+from instance.database import db, Achivments
 
 module = Blueprint('achivments', __name__, url_prefix='/api/achivments')
 
 @module.route('/add', methods=['GET', 'POST'])
 def achivment_add():
-    args = request.args
+    args = request.form
 
-    achivment_text = args['achivment_text']
     text = args['text']
     date = args['date']
-    type = args['type']
     place = args['place']
     imageurl = args['imageurl']  # ---TODO
     
-    f = db.Achivments(
-        achivments_achivment_text=achivment_text,
-        achivments_text=text,
-        achivments_date=date,
-        achivments_type=type,
-        achivments_place=place,
-        achivments_imageurl=imageurl
+    f = Achivments(
+        achivment_text='',
+        text=text,
+        date=date,
+        type='',
+        place=place,
+        imageurl=imageurl
     )
     db.session.add(f)
     db.session.commit()
@@ -29,11 +27,18 @@ def achivment_add():
 
 @module.route('/get_achivments', methods=['GET'])
 def get_achivment():
-    query = db.Achivments.query.all()
-    ans = []
+    query = db.session.query(Achivments)
+    ans = {'images': [], 'text' : [], 'date' : [], 'place' : []}
 
     for entry in query:
-        ans.append(entry.serialize())
+        ans['images'].append(entry.imageurl)
+        ans['text'].append(entry.text)
+        ans['place'].append(entry.place)
+        ans['date'].append(entry.date)
+    ans['images'] = ans['images'][::-1]
+    ans['text'] = ans['text'][::-1]
+    ans['place'] = ans['place'][::-1]
+    ans['date'] = ans['date'][::-1]
 
     return jsonify({
         'values': ans

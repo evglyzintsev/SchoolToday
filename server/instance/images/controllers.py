@@ -1,27 +1,35 @@
 from flask import Blueprint, request, Response, jsonify
-from instance.database import db
+import json
+from instance.database import db, Images
 from base64 import b64decode
 
 module = Blueprint('images', __name__, url_prefix='/api/images')
 
-@module.route('/add', methods=['POST'])
+@module.route('/add', methods=['GET', 'POST'])
 def achivment_add():
-    args = request.args
-
-    image_bin = b64decode(args['image_base64'])
-
-    f = db.Images(
-        images_image_bin=image_bin
+    args = request.form
+    print(args['image_base64'])
+    image_bin = b64decode(args['image_base64'][10:-2])
+    f = Images(
+        image_bin=image_bin
     )
     db.session.add(f)
     db.session.commit()
-    return "OK"
+
+    query = db.session.query(Images).count()
+    return str( query)
 
 
 @module.route('/get_image', methods=['POST', 'GET'])
 def get_achivment():
-    args = request.args
-    image_id = args['id']
+    args = request.form
 
-    query = db.Images.query.filter(Images.id == image_id).first()
-    return query.image_bin
+    print(args['id'])
+    image_id = args['id'][10:-2]
+    print(image_id)
+    query = (Images
+              .query
+              .filter(Images.id == image_id)
+              .all())
+
+    return query[0].image_bin

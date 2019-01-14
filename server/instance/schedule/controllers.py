@@ -38,28 +38,28 @@ class TimeTable(object, metaclass=cTimeTable):
                 for i in range(0, 69):
                     if i < 12:
                         ans_list[cl][0].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
-                    if i > 11 and i < 23:
+                    if i > 11 and i < 24:
                         ans_list[cl][1].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
-                    if i > 22 and i < 36:
+                    if i > 23 and i < 37:
                         ans_list[cl][2].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
-                    if i > 35 and i < 47:
+                    if i > 36 and i < 49:
                         ans_list[cl][3].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
-                    if i > 46 and i < 60:
+                    if i > 48 and i < 62:
                         ans_list[cl][4].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
-                    if i > 59:
+                    if i > 61:
                         ans_list[cl][5].append(self.FromBadToGoodWord(str(cell_list[i])) + self.FromBadToGoodWord(str(cell_list1[i])))
             for i in range(0, 69):
                 if i < 12:
                     ans_list[cl][0].append(self.FromBadToGoodWord(str(cell_list[i])))
-                if i > 11 and i < 23:
+                if i > 11 and i < 24:
                     ans_list[cl][1].append(self.FromBadToGoodWord(str(cell_list[i])))
-                if i > 22 and i < 36:
+                if i > 23 and i < 37:
                     ans_list[cl][2].append(self.FromBadToGoodWord(str(cell_list[i])))
-                if i > 35 and i < 47:
+                if i > 36 and i < 49:
                     ans_list[cl][3].append(self.FromBadToGoodWord(str(cell_list[i])))
-                if i > 46 and i < 60:
+                if i > 48 and i < 62:
                     ans_list[cl][4].append(self.FromBadToGoodWord(str(cell_list[i])))
-                if i > 59:
+                if i > 61:
                     ans_list[cl][5].append(self.FromBadToGoodWord(str(cell_list[i])))
         return ans_list
     
