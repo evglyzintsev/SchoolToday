@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/9e26c472e61c43e30b42abf1b2e5712f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b49520ef2676a1cff41828625f2c4dea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ef3e79ec01172be26d0c28cb31b8676d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8f30b61600b4773ca215f974b0920871/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d942e5e7863b9e1051dda9ef42a14e93/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e70a7e36a8438871bb568b1ff1af041e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7617eabd2714fe71ff0ccd20e27ccf9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a9a44eef86ab4b6e7518a22792794ce0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d654acb2b6d3a078abf4062f47fa9861/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5abeeb065333e196cc8ff11fdc5d29e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/368b36450b386bc606c6d741a37bc14c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d2cc6d9eb4f23907b9a21ecffddf7765/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36d53a90b4f3f319821f57f602101ed8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/35c95d60d552acf0ad68e21df6fa02ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3c11085bfbedf6a65dca423a292482eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f140e8f3ec2783ab5f180386906edbc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/8faae12859ef0dd3a88d0f23ade4402f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/144c21d6be34199db494963c3169f5e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9e77adfc7da10aa4beca34fed0b236ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b1ee404932d7b7a4688fb5ed07993dd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ab97d04d867fb69dd85c47e00d8d9a13/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/702d210b2d4533a7a9689b1e879838bb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/74a2792343366054e4affb7f56a24839/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/546740e49229f1fa9a2f80a2d7ad52de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/269450cc8ef243a0496c97b2d79dea74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/405eda47db836bdef755458467beb693/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b49520ef2676a1cff41828625f2c4dea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b49520ef2676a1cff41828625f2c4dea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f140e8f3ec2783ab5f180386906edbc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f140e8f3ec2783ab5f180386906edbc/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.podvorniy.schooltoday.Login
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:12:19-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/9e26c472e61c43e30b42abf1b2e5712f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/9e26c472e61c43e30b42abf1b2e5712f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b49520ef2676a1cff41828625f2c4dea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b49520ef2676a1cff41828625f2c4dea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ef3e79ec01172be26d0c28cb31b8676d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ef3e79ec01172be26d0c28cb31b8676d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8f30b61600b4773ca215f974b0920871/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8f30b61600b4773ca215f974b0920871/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d942e5e7863b9e1051dda9ef42a14e93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d942e5e7863b9e1051dda9ef42a14e93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e70a7e36a8438871bb568b1ff1af041e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e70a7e36a8438871bb568b1ff1af041e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7617eabd2714fe71ff0ccd20e27ccf9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7617eabd2714fe71ff0ccd20e27ccf9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a9a44eef86ab4b6e7518a22792794ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a9a44eef86ab4b6e7518a22792794ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d654acb2b6d3a078abf4062f47fa9861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d654acb2b6d3a078abf4062f47fa9861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5abeeb065333e196cc8ff11fdc5d29e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5abeeb065333e196cc8ff11fdc5d29e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/368b36450b386bc606c6d741a37bc14c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/368b36450b386bc606c6d741a37bc14c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d2cc6d9eb4f23907b9a21ecffddf7765/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d2cc6d9eb4f23907b9a21ecffddf7765/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36d53a90b4f3f319821f57f602101ed8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36d53a90b4f3f319821f57f602101ed8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/35c95d60d552acf0ad68e21df6fa02ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/35c95d60d552acf0ad68e21df6fa02ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3c11085bfbedf6a65dca423a292482eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3c11085bfbedf6a65dca423a292482eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/025f6d6da8ca02963dec3d21a7035a5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f140e8f3ec2783ab5f180386906edbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f140e8f3ec2783ab5f180386906edbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/8faae12859ef0dd3a88d0f23ade4402f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/8faae12859ef0dd3a88d0f23ade4402f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/144c21d6be34199db494963c3169f5e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/144c21d6be34199db494963c3169f5e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9e77adfc7da10aa4beca34fed0b236ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9e77adfc7da10aa4beca34fed0b236ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b1ee404932d7b7a4688fb5ed07993dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b1ee404932d7b7a4688fb5ed07993dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ab97d04d867fb69dd85c47e00d8d9a13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ab97d04d867fb69dd85c47e00d8d9a13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/702d210b2d4533a7a9689b1e879838bb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/702d210b2d4533a7a9689b1e879838bb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/74a2792343366054e4affb7f56a24839/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/74a2792343366054e4affb7f56a24839/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/546740e49229f1fa9a2f80a2d7ad52de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/546740e49229f1fa9a2f80a2d7ad52de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/269450cc8ef243a0496c97b2d79dea74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/269450cc8ef243a0496c97b2d79dea74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/405eda47db836bdef755458467beb693/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/podvorniy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/405eda47db836bdef755458467beb693/AndroidManifest.xml:20:5-44
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		ADDED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/podvorniy/Desktop/SchoolToday/AndroidSchoolToday/app/src/main/AndroidManifest.xml
